@@ -1,0 +1,77 @@
+
+<! This little bit of code started with https://www.wikihow.com/Create-a-Questionnaire-in-HTML and got modified, by then using info from w3schools.com to continue.
+
+This is an UGLY survey....  PLEASE MODIFY IT!
+
+Caroline Barrière
+May 2020
+
+>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<! IMPORTANT to use a CSS file - external >
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Questionnaire</title>
+  </head>
+  
+  <body>
+	<h1>Survey</h1>
+	<form id="myform" action="index.php" >
+	<br>
+	<br>
+	<! Choose a website to evaluate >
+	<h3><i>This is a terribly ugly page... please modify it!</i></h3>
+	<h2>What do you think of the UI in this <a href="http://Provigo.ca">Provigo</a> site?</h2>	
+	<br>
+	<br>
+	<! You should make your image clickable>
+	<img src="images/Provigo-FrontPage.jpg" alt="http://Provigo.ca" width="450" height="300">
+	<br>
+	<br>
+	<div class="question">
+	<h2> Personal Information </h2>
+	<p>First name: <input type="text" name="firstname"></p>
+	<p>Last name: <input type="text" name="lastname"></p>
+	<br>
+	<br>
+		
+	</div>	
+		
+	<div class="question">
+		<h2> What you like </h2>
+		I like:<br>
+		<input type="checkbox" name="Color" value="Red">Red<br>
+		<input type="checkbox" name="Color" value="Green">Green<br>
+		<input type="checkbox" name="Color" value="Blue">Blue<br>
+		
+		<br>
+		
+		What is your favorite fruit?<br>
+		<select id="favorite">
+			<option value="Apples" selected="selected">Apples</option>
+			<option value="Oranges">Oranges</option>
+			<option value="Bananas">Bananas</option>
+		</select>
+	</div>
+	
+	<br>
+	<br>
+		
+	Comments:<br>
+	<textarea rows="5" cols="30"></textarea>
+			
+	<br>
+	<br>
+			
+	<button id="submitButton" type="button" class="block">
+		SUBMIT your questionnaire
+	</button>
+		
+	<p id="signature">Site created by Caroline Barrière</p>	
+	
+	</form>
+  </body>
+</html> 

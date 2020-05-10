@@ -1,0 +1,68 @@
+
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+html {
+  background-color: white;
+}
+ 
+body {
+  background-color: powderblue;
+  width: 600px;
+  border: 2px solid black;
+  padding: 0px 20px 20px 20px;
+  
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #ff00ff;  /* Fuchsia */
+	text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align: center;
+}
+
+p {
+  color: red;
+}
+
+table {
+	border: 1px solid black;
+	background-color: #f1f1c1;
+}
+
+/* Defining styling for a specific element type - each question */
+.question {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Defining styling for a specific element type - large block buttons */
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ffff66;  /* yellow */
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Defining styling for a specific element with an id */
+#signature {
+  text-align: right;
+  color: red;
+  font-style: italic;
+  font-size: 75%;
+}
